@@ -4,7 +4,9 @@
   "description": "A simple proxy that adds Access-Control-Allow-Origin to the response (which is helpful on dev environment)",
   "keywords": [
     "proxy",
-    "cors"
+    "cors",
+    "local",
+    "dev"
   ],
   "homepage": "https://github.com/kirilstrax/dev-cors-proxy#readme",
   "bugs": {
@@ -17,9 +19,13 @@
   "license": "Apache-2.0",
   "author": "Kiril Strax",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "bin": {
+    "corsprox": "./bin/corsprox.js"
+  },
   "scripts": {
-    "test": "echo \"No tests yet\""
+    "start": "node ./bin/corsprox.js",
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "dependencies": {
     "axios": "^1.10.0",
