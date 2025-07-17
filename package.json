@@ -1,0 +1,24 @@
+{
+  "name": "dev-cors-proxy",
+  "version": "1.0.0",
+  "description": "A simple proxy that adds Access-Control-Allow-Origin to the response (which is helpful on dev environment)",
+  "keywords": [
+    "proxy",
+    "cors"
+  ],
+  "homepage": "https://github.com/kirilstrax/dev-cors-proxy#readme",
+  "bugs": {
+    "url": "https://github.com/kirilstrax/dev-cors-proxy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirilstrax/dev-cors-proxy.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Kiril Strax",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  }
+}
